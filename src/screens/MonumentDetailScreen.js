@@ -62,7 +62,6 @@ export default function MonumentDetailScreen({ route, navigation }) {
   return (
     <ScrollView>
       <View style={{ padding: 16 }}>
-        {console.log("cabessasaaaa: " + monument.audioFile)}
         <Text style={{ fontSize: 24, fontWeight: "bold", marginBottom: 16 }}>
           {monument.name}
         </Text>
